@@ -31,3 +31,5 @@ const n = 'Meeanskhi Lodhi Rajput';
 console.warn( !typeof n ==='object');                   //false
 console.warn( !typeof n ==='string');                   //false
 console.warn( !typeof n ===false);  //true
+
+//------------------------------------------------------->>>

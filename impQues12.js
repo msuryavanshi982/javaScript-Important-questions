@@ -1,4 +1,4 @@
-// Ques-56
+// Ques-
 
 let a=3;
 let b = new Number(3);    // object
@@ -6,13 +6,17 @@ console.log(typeof b);
 console.log(a==b);
 console.log(a===b); // because b has type of Object
 
-// Ques-57
+//------------------------------------------------------->>>
+
+// Ques-
 
 let Name;
 Name = {}   //!type
 console.log(Name);          // {}
 
-// Ques-58
+//------------------------------------------------------->>>
+
+// Ques-
 
 function fruit(){
     console.log("woof!");
@@ -20,14 +24,18 @@ function fruit(){
 fruit.name ="apple";
 fruit();     // o/p: Woof !
 
-// Ques-59
+//------------------------------------------------------->>>
+
+// Ques-
 
 function sum(a,b){
     return a+b;
 }
 console.log(sum(1,"2"));    //o/p : 12
 
-// Ques-60
+//------------------------------------------------------->>>
+
+// Ques-
 
 let number=0;
 console.log(++number);    // 1

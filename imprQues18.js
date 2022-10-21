@@ -23,4 +23,9 @@ function getInfo(member){
 const person = { name: "Yogita"};
 getInfo(person);
 console.log(person);             // o/p: { name : "Meenakshi"}
-
+//-----------------------
+let z=2;
+setTimeout(()=>{             // web API
+    p=100;
+    console.log(p);
+},0);

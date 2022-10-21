@@ -1,17 +1,17 @@
 // Ques-
 const Name ="Yogita";
-const age =23;
+const roll_no =23;
 console.warn(isNaN(Name));        //true
-console.warn(isNaN(age));         //false
+console.warn(isNaN(roll_no));        //false
 
 //---------------------------------------------------------->>>
 
-// Ques-2: to modify person (object):
+// Ques-: to modify person (object):
 
-let person ={ "name":"Meenakshi"};
+let person = { "name":"Meenakshi"};
 Object.seal(person);
 console.warn(person);
-person.name ="Yogita";
+person.name = "Yogita";
 
 console.warn(person);
 
@@ -34,5 +34,5 @@ console.warn(data);
 //---------------------------------------------------------->>>
 
 // Ques-: to check any no. is odd or even
- const num =30;
+ const num =31;
  console.warn(num%2==0);      // true

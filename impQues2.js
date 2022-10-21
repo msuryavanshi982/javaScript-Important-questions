@@ -20,3 +20,5 @@ let info = {state: "UP", City: "Noida", mail: "xyz@gmail.com"};
  let obj2 = { Name : "world", roll_no : 77};
  let good ={ ...obj1, ...obj2};
  console.warn(good);
+
+ //------------------------------------------------------->>>

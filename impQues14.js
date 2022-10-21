@@ -1,5 +1,5 @@
 
-// Ques-66
+// Ques-
 
 const obj = {1:"a", 2:"b", 3:"c"};
 console.warn(obj.hasOwnProperty("8")); // true
@@ -8,7 +8,9 @@ console.log(obj.hasOwnProperty(1));  //true
 
 // It gives boolean values when value is present . we can use "" or as it value
 
-// Q-67 
+//------------------------------------------------------->>>
+
+// Q- 
 
 const Qbj ={
     a : "one",
@@ -18,12 +20,16 @@ const Qbj ={
 
 console.log(Qbj);
 
-// Q-68
+//------------------------------------------------------->>>
+
+// Q-
 
 for(let i=1; i<5 ; i++){
     if(i===3) continue ;
     console.log(i);
 }
+
+//------------------------------------------------------->>>
 
 // Q-67
 
@@ -34,6 +40,8 @@ const baz =()=>console.log("third");
 bar();
 foo();
 baz();
+
+//------------------------------------------------------->>>
 
 // Q-70
 

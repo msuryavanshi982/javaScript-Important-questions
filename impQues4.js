@@ -31,6 +31,8 @@ console.warn(c[0]===d[0]);        // true
 
 //Here, we are checking the indexes of both the variables. The values of these two variacles is same beacause here we have elements. Therefore the output should be true. 
 
+//------------------------------------------------------->>>
+
 // Ques- 
 
 let arr =[1,2,3,4,5];
@@ -39,6 +41,8 @@ let coder = {"name":"Meenakshi"};
 console.warn(...arr);
 
 // If we use destructure, the array will break all the elements inside the array will get outside. Therefore, we will get th output as 1 2 3 4 5 
+
+//------------------------------------------------------->>>
 
 // Ques-
 

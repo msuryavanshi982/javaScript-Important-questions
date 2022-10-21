@@ -1,4 +1,4 @@
-// Ques-71 
+// Ques-
 const person = {name : "Meenaskshi"};
 function saysHi(age){
     return `${this.name} is ${age}` ;   // this refer to window object
@@ -8,10 +8,13 @@ console.log(saysHi.bind(person, 23));  // funcn call
 
 // o/p: Meenakshi is 23
 
+//------------------------------------------------------->>>
+
 function saysHi(age){
     return `${this.name} is ${age}` ;
 }
 
+//------------------------------------------------------->>>
 
 // Q-75
 

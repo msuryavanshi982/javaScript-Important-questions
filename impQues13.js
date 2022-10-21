@@ -1,4 +1,4 @@
-// Ques-62
+// Ques-
 
 function getAge(){
     'use strict'
@@ -7,15 +7,18 @@ function getAge(){
 }
 getAge();  // o/p : reference error : age is not defined.
 
-// Q-63
+//------------------------------------------------------->>>
+
+// Q-
 
 function getAge(){
     // 'use strict'
     age = 21;
    console.log(age);
 }
+//------------------------------------------------------->>>
 
-// Ques-64
+// Ques-
 
 const sum = eval('10*10+5');    // mathematic operation
 console.warn(sum);     // o/p: 105

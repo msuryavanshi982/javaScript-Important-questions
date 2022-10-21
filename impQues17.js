@@ -1,4 +1,4 @@
-// Q-84
+// Q-
 const Person = {
     name: "Mishti",
     age : 10
@@ -9,7 +9,9 @@ for(item in Person){
 
 // o/p: name age
 
-// Q-85
+//------------------------------------------------------->>>
+
+// Q-
 
 let d = 3+4+'5';
 console.log(typeof d);    // string

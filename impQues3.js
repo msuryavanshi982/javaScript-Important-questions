@@ -35,9 +35,7 @@ console.log(z,h );     // Meenakshi
 let [ ,u] = daTa;
 console.log(u);     //  Mishti 
 
-
-
-
+//------------------------------------------------------->>>
 
 
 

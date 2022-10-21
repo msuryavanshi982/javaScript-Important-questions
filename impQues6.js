@@ -1,31 +1,34 @@
-// Ques-26
+// Ques-
 let data ={name:"Meenakshi"};
 delete data.name;
 console.warn(data);      // {}
 
-// Ques-27: to convert data into boolean false value
+//---------------------------------------------------------------------->>>
 
-// let Data = "true";
-console.log(!Data);      // false
-
-// Ques-27: to convert data into boolean false value
+// Ques-: to convert data into boolean false value
 
 let Data= "true";
-console.warn(!Data);      //false
+console.warn(!!Data);      //false
 
-// Ques-28:  what is the differences b/w map & forEach methods 
+//---------------------------------------------------------------------->>>
+
+// Ques-:  what is the differences b/w map & forEach methods 
 // ===>>> one diference is map always returns something but forEach doesn't returns anything.
 
-// Ques-29
-// let data=["Meenakshi", "Mishti","Rati"];
-delete data[1];   // It will replace "Mishti" with an empty space & create empty space
+//---------------------------------------------------------------------->>>
 
-console.log(data);   
+// Ques-
+let dAta=["Meenakshi", "Mishti","Rati"];
+delete dAta[1];   // It will replace "Mishti" with an empty space & create empty space
+
+console.log(dAta);   
 
 // o/p : [ 'Meenakshi', <1 empty item>, 'Rati' ]
 
-// Ques-30 
 
-console.warn(data.length);      // 3
+//---------------------------------------------------------------------->>>
+// Ques- 
+
+console.warn(dAta.length);      // 3
 
 

@@ -1,4 +1,4 @@
-// Q-91
+// Q-
 function Car(){
     this.make = 'tata';
     return {make:'kia'};
@@ -6,15 +6,18 @@ function Car(){
 const myCar = new Car();
 console.log(myCar.make);        // o/p:  kia
 
+//------------------------------------------------------->>>
 
-// Q-92
+// Q-
 
 (()=>{
     let x=(y=10);
 })();
 console.log(typeof x)      // undefined
 
-//Q-93
+//------------------------------------------------------->>>
+
+//Q-
 
 (()=>{
     let x=y=10;
@@ -22,8 +25,9 @@ console.log(typeof x)      // undefined
 })();
 console.log(typeof y);     // number
 
+//------------------------------------------------------->>>
 
-// Q-94
+// Q-
 
 (()=>{
     let x=10;
@@ -33,8 +37,9 @@ console.log(typeof y);     // number
 })();
 console.log(typeof x);     //undefined
 
+//------------------------------------------------------->>>
 
-// Q-95 
+// Q-
 
 (()=>{
     let x=y=10;
