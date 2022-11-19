@@ -1,9 +1,10 @@
 // Ques-
 
-let x = 3*3;            // o/p: 9
-let y = 3**3;           // o/p: 27
-//let z = 3***3  -------------->o/p uncaught syntax error
-
+let x = 32*6;            // o/p: 9
+let y = 4**3;           // o/p: 27
+// let z = 3***3  -------------->o/p uncaught syntax error
+console.log(x)
+console.log(y)
 //----------------------------------------->>>
 // Ques-
 
@@ -16,13 +17,17 @@ var D ;
 // console.log(t);  // error : t is not defined 
 
 //----------------------------------------->>>
+
 // Ques-
+// let for = 100;   // error : Unexpected token 'for'
 
-console.log([[[[]]]]);   // console in crome
-
-// nested array, every array has an another array except the last array has empty array having value nothing to it.
+// becouse for is reserved keyword in javaScript
 
 //----------------------------------------->>>
-//Ques-> How to find OS name in browser(in javasript) : ->
-//=> using inspect we have to write "navigator.platform" in console.
 
+// Ques-
+
+let number=2;
+console.log(++number);    //pre -inc
+console.log(number++);    //post inc
+console.log(number);      

@@ -2,7 +2,7 @@
 // Ques-
 
 const obj = {1:"a", 2:"b", 3:"c"};
-console.warn(obj.hasOwnProperty("8")); // true
+console.warn(obj.hasOwnProperty("8")); // false
 
 console.log(obj.hasOwnProperty(1));  //true
 
@@ -37,7 +37,7 @@ const foo = ()=>console.log("first");
 const bar =()=> setTimeout(()=>console.log("second"), 1000);
 const baz =()=>console.log("third");
 
-bar();
+// bar();
 foo();
 baz();
 

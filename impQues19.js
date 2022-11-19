@@ -48,5 +48,3 @@ console.log(typeof x);     //undefined
     let x=y=20;
 })();
 console.log(y);   // 20
-
-

@@ -1,9 +1,4 @@
-// Q-86
-console.log(typeof(3+4+ +'5'));   // o/p: number
 
-// Q-88
-
-console.log([]==[]);   // o/p : false
 
 
 // Q-89
@@ -29,3 +24,11 @@ setTimeout(()=>{             // web API
     p=100;
     console.log(p);
 },0);
+
+//------------------------------------------------------->>>
+
+function saysHi(age){
+    return `${this.name} is ${age}` ;
+}
+
+ console.log(saysHi(30))

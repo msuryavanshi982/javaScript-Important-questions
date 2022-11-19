@@ -35,9 +35,3 @@ console.log(sum(1,"2"));    //o/p : 12
 
 //------------------------------------------------------->>>
 
-// Ques-
-
-let number=0;
-console.log(++number);    // 1
-console.log(number++);    // 1
-console.log(number);      // 2

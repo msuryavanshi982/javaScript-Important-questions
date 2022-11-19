@@ -1,6 +1,6 @@
 //Ques-
-console.log(!"Meenakshi");          //false
-console.log(typeof "Meenakshi");     //string
+// console.log(!"Meenakshi");          //false
+// console.log(typeof "Meenakshi");     //string
 
 //------------------------------------------------------->>>
 
@@ -10,10 +10,10 @@ const bird ={
     size :"small",
 }
 
-console.warn(bird[data]);       //small
-console.warn(bird["size"]);     //small
-console.warn(bird.size);        //small
-console.warn(bird.data);        //undefined
+// console.warn(bird[data]);       //small
+// console.warn(bird["size"]);     //small
+// console.warn(bird.size);        //small
+// console.warn(bird.data);        //undefined
 
 //------------------------------------------------------->>>
 
@@ -37,6 +37,6 @@ console.log(x);              // 10
 //Q-
 
 var Meera ;
-let Meera2=100;
-console.log(Meera2);
+let Meera=100;
+console.log(Meera);
 
