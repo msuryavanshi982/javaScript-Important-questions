@@ -18,7 +18,7 @@ function fruit(){
     var name = "apple";
     let price = 20;
 }
-fruit();             // o/p: apple
+fruit();             // o/p: undefined
 
 // note: In JS, there is a term called hoisting. In hoisting,  we get the output before declaring variable in case of var but in case of let a variable must be declare first then we will get the response.
 
